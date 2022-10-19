@@ -15,7 +15,7 @@ versions:
 topics:
   - Repositories
 ---
-People with admin or owner permissions can set up a CODEOWNERS file in a repository.
+People with admin or owner permissions can configure the [branch protection rules](/github/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches#require-pull-request-reviews-before-merging) that ensure Pull Requests are reviewed by code wwners in the CODEOWNERS file.
 
 The people you choose as code owners must have write permissions for the repository. When the code owner is a team, that team must be visible and it must have write permissions, even if all the individual members of the team already have write permissions directly, through organization membership, or through another team membership.
 
